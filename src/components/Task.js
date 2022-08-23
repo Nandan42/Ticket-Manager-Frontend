@@ -66,7 +66,7 @@ const Task = props => {
   return (
     <div>
         <div className="edit-form">
-          <h4>Task</h4>
+          <h4>Ticket</h4>
           <form>
             <div className="form-group">
               <label htmlFor="title">Title</label>
