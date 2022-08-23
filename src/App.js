@@ -13,12 +13,12 @@ function App() {
     <div>
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <a href="/tasks" className="navbar-brand">
-          Task
+          Ticket Manager
         </a>
         <div className="navbar-nav mr-auto">
           <li className="nav-item">
             <Link to={"/tasks"} className="nav-link">
-              Tasks
+              Tickets
             </Link>
           </li>
           <li className="nav-item">

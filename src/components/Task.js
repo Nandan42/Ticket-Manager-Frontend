@@ -71,7 +71,6 @@ const Task = props => {
             <div className="form-group">
               <label htmlFor="title">Title</label>
               <input
-                required
                 type="text"
                 className="form-control"
                 id="title"
@@ -94,7 +93,6 @@ const Task = props => {
             <div className="form-group">
               <label htmlFor="startDate">Start Date</label>
               <input
-                required
                 type="date"
                 className="form-control"
                 id="startDate"
@@ -106,7 +104,6 @@ const Task = props => {
             <div className="form-group">
               <label htmlFor="endDate">End Date</label>
               <input
-                required
                 type="date"
                 className="form-control"
                 id="endDate"
@@ -118,7 +115,6 @@ const Task = props => {
             <div className="form-group">
               <label htmlFor="priority">Priority</label>
               <input
-                required
                 type="text"
                 className="form-control"
                 id="priority"
@@ -130,7 +126,6 @@ const Task = props => {
             <div className="form-group">
               <label htmlFor="status">Status</label>
               <input
-                required
                 type="text"
                 className="form-control"
                 id="status"
